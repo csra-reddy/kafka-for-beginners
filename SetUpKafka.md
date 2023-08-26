@@ -29,7 +29,7 @@ auto.create.topics.enable=false
 ## How to create a topic ?
 
 ```
-./kafka-topics.sh --create --topic test-topic -zookeeper localhost:2181 --replication-factor 1 --partitions 4
+./kafka-topics.sh --create --topic test-topic --bootstrap-server localhost:2181 --replication-factor 1 --partitions 4
 ```
 - Topic with Replication Factor as 3.
 
